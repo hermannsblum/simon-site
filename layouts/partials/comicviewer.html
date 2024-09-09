@@ -1,0 +1,43 @@
+{{ $images := .Resources.ByType "image" -}}
+{{ $n_images := 4 }}
+
+<div class="cv-container">
+
+  {{ range $images }}
+  <div class="cv-preview"><img
+    onclick="openModal()"
+    src="{{ .RelPermalink }}"
+    alt=""></div>
+  {{ end }}
+
+  <div class="cv-thumbnails">
+  {{ range $idx, $img := $images }}
+  <div><img
+    class="cv-thumbnail-img"
+    onclick="currentSlide({{ $idx }})"
+    src="{{ $img.RelPermalink }}"
+    alt=""></div>
+  {{ end }}
+  </div>
+</div>
+
+<div id="cv-modal">
+  <span class="close cursor" onclick="closeModal()">&times;</span>
+  <div class="cv-modal-content">
+
+    {{ range $idx, $img := $images }}
+    <div class="cv-modal-slide">
+      <div class="numbertext">{{ $idx }} / {{ $n_images }} </div>
+      <img src="{{ $img.RelPermalink }}" >
+    </div>
+    {{ end }}
+
+
+  </div>
+      <!-- Next/previous controls -->
+    <a class="prev" onclick="plusModal(-1)">&#10094;</a>
+    <a class="next" onclick="plusModal(1)">&#10095;</a>
+</div>
+
+{{ $script := resources.Get "js/comicviewer.js" -}}
+<script src="{{ $script.RelPermalink }}"></script>

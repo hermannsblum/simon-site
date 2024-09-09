@@ -1,7 +1,7 @@
 ---
-title: "Zen demo site"
+title: "Entengrütze"
 baseURL: "https://zen-demo.xdeb.org/"
-theme: "github.com/frjo/hugo-theme-zen/v4"
+theme: zen
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
@@ -38,17 +38,17 @@ params:
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
-  feedlinks: true
+  feedlinks: false
   icon: "apple-touch-icon.png"
   image: "apple-touch-icon.png"
   imageMaxWidth: 400
   logoWidth: 64
   logoHeight: 64
   mainSections:
-    - blog
+    - disney
   mobileMenu: true
   mobileMenuOutline: true
-  poweredby: true
+  poweredby: false
   realfavicongenerator: true
   sidebar: false
   submitted: true
@@ -67,15 +67,6 @@ languages:
         - Name: "Blog"
           weight: 2
           pageRef: "/blog/"
-        - Name: "Podcast"
-          weight: 4
-          pageRef: "/podcast/"
-        - Name: "Products"
-          weight: 6
-          pageRef: "/products/"
-        - Name: "Misc"
-          weight: 8
-          pageRef: "/misc/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"

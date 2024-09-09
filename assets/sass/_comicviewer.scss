@@ -1,0 +1,98 @@
+.cv-thumbnails,
+%cv-thumbnails {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4em;
+  & > * {
+    // display: none;
+    flex: 1;
+    flex-grow: 0;
+    flex-basis: calc(100% / 6 - 0.4em);
+    // flex-basis: 50%;
+  }
+}
+
+.cv-preview,
+%cv-preview {
+  display: none;
+}
+
+/* Add a transparency effect for thumnbail images */
+.cv-thumbnail-img,
+%cv-thumnnail-img {
+  opacity: 0.6;
+  &.active,
+  &:hover {
+    opacity: 1;
+  }
+}
+
+#cv-modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(233, 233, 233);
+
+  /* The Close Button */
+  > .close {
+    color: black;
+    position: absolute;
+    top: 10px;
+    right: 25px;
+    font-size: 35px;
+    font-weight: bold;
+
+    &:hover,
+    &:focus {
+      color: #999;
+      text-decoration: none;
+      cursor: pointer;
+    }
+  }
+
+    /* Next & previous buttons */
+  > .prev, .next {
+    position: absolute;
+    cursor: pointer;
+    bottom: 0%;
+    width: auto;
+    padding: 20px;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+/* Position the "next button" to the right */
+  > .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+
+}
+
+.cv-modal-content {
+  position: relative;
+  margin: auto;
+  padding: 0;
+  width: 90%;
+  max-width: 1200px;
+
+  > .cv-modal-slide {
+    height: 80vh;
+    aspect-ratio: auto;
+    > img {
+        aspect-ratio: auto;
+        max-height: 75vh;
+        max-width: 100%;
+    }
+  }
+}

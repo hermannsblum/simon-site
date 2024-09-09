@@ -8,3 +8,5 @@ $max-content-width:   777px;
 // Setting this to a larger value than max-content-width allows
 // content with class "stretch" to stretch out to the page edge.
 $max-page-width:      1111px;
+
+@import 'comicviewer';
