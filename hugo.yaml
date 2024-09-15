@@ -1,7 +1,7 @@
 ---
 title: "Entengrütze"
 baseURL: "https://zen-demo.xdeb.org/"
-theme: zen
+theme: "github.com/frjo/hugo-theme-zen/v4"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
 pluralizelisttitles: false
@@ -34,7 +34,7 @@ outputs:
 
 params:
   contact: "frjo@xdeb.org"
-  copyright: '<!--Creative Commons License-->This site is licensed under a <a href="https://creativecommons.org/licenses/by-sa/4.0/">CC-BY-SA 4.0</a> licence.<!--/Creative Commons License-->'
+  copyright: 'c Simon Gies'
   description: "The zen theme for Hugo demo site."
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
@@ -46,6 +46,7 @@ params:
   logoHeight: 64
   mainSections:
     - disney
+    - comics
   mobileMenu: true
   mobileMenuOutline: true
   poweredby: false
@@ -64,24 +65,33 @@ languages:
         - Name: "Home"
           weight: -10
           pageRef: "/"
-        - Name: "Blog"
+        - Name: "Disney"
           weight: 2
-          pageRef: "/blog/"
+          pageRef: "/disney/"
+        - Name: "non-disney"
+          weight: 2
+          pageRef: "/comics/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"
-        - Name: "Contact"
-          weight: 12
-          pageRef: "/contact/"
 
-  sv:
+  de:
     weight: 2
-    languageName: "Svenska"
-    languageCode: "sv-SE"
-    contentDir: content/sv
+    languageName: "Deutsch"
+    languageCode: "de-DE"
+    contentDir: content/de
     menu:
       main:
-        - Name: "Hem"
+        - Name: "Start"
           weight: -10
           pageRef: "/"
+        - Name: "Disney"
+          weight: 2
+          pageRef: "/disney/"
+        - Name: "non-disney"
+          weight: 2
+          pageRef: "/comics/"
+        - Name: "suche"
+          weight: 10
+          pageRef: "/suche/"
 

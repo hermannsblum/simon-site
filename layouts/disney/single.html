@@ -1,0 +1,32 @@
+{{ define "main" -}}
+<main class="main layout__main">
+<header></header>
+<article class="single-view{{ with .Section }} single-view--{{ . | urlize }}{{ end }}">
+<div class="flex-group flex-group--2">
+
+  {{ partial "comicviewer.html" . }}
+
+
+<div>
+
+  <h1 class="title{{ if $.Param "submitted" | default false }} mb--xxs{{ end }}">{{ .Title }}</h1>
+  {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . }}{{ end -}}
+  {{ if .Params.tags }}{{ partial "tags.html" . }}{{ end -}}
+
+  {{ .Content }}
+</div>
+</div>
+
+
+</article>
+
+{{ range .Params.examples }}
+<section class="{{ .class }}">
+<h2>{{ .title }}</h2>
+
+<p>{{ .text }}</p>
+</section>
+{{ end }}
+
+</main>
+{{ end -}}

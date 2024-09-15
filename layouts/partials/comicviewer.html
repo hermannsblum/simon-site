@@ -1,42 +1,51 @@
 {{ $images := .Resources.ByType "image" -}}
-{{ $n_images := 4 }}
+{{ $n_images := len $images }}
 
 <div class="cv-container">
 
-  {{ range $images }}
-  <div class="cv-preview"><img
+  <!-- <img
     onclick="openModal()"
     src="{{ .RelPermalink }}"
-    alt=""></div>
+    alt=""> -->
+
+  {{ range $images }}
+  <div class="cv-preview" onclick="openModal();">
+    {{ partial "comic.html" (dict "src" .RelPermalink) }}
+  </div>
   {{ end }}
 
   <div class="cv-thumbnails">
   {{ range $idx, $img := $images }}
-  <div><img
-    class="cv-thumbnail-img"
-    onclick="currentSlide({{ $idx }})"
-    src="{{ $img.RelPermalink }}"
-    alt=""></div>
+  <div class="cv-thumbnail" onclick="currentSlide({{ $idx }})">
+    {{ partial "comic.html" (dict "src" $img.RelPermalink) }}
+  </div>
   {{ end }}
   </div>
 </div>
 
 <div id="cv-modal">
   <span class="close cursor" onclick="closeModal()">&times;</span>
-  <div class="cv-modal-content">
+  <div class="cv-modal-background" onclick="closeModal()"></div>
+  <div class="cv-modal-content" onclick="closeModal();">
 
     {{ range $idx, $img := $images }}
+      <div class="numbertext">{{ add $idx 1 }} / {{ $n_images }} </div>
     <div class="cv-modal-slide">
-      <div class="numbertext">{{ $idx }} / {{ $n_images }} </div>
-      <img src="{{ $img.RelPermalink }}" >
+      <div class="" style="width: 100%; height: 100%; position: relative;">
+        <div class="comic-wrapper" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+          <div style="width: 100%; height: 100%;" class="comic">
+            <img src="{{ .RelPermalink }}" style="max-width: 100%; max-height: 100%;" onclick="event.stopPropagation();">
+          </div>
+        </div>
+      </div>
     </div>
     {{ end }}
 
-
-  </div>
       <!-- Next/previous controls -->
-    <a class="prev" onclick="plusModal(-1)">&#10094;</a>
-    <a class="next" onclick="plusModal(1)">&#10095;</a>
+    <a class="prev" onclick="plusModal(-1); event.stopPropagation();">&#10094;</a>
+    <a class="next" onclick="plusModal(1); event.stopPropagation();">&#10095;</a>
+  </div>
+
 </div>
 
 {{ $script := resources.Get "js/comicviewer.js" -}}

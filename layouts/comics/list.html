@@ -1,11 +1,12 @@
-{{ define "title" }}{{ site.Title }}{{ end }}
-
 {{ define "main" -}}
 <main class="main layout__main">
-{{ .Content }}
+<header>
+<!-- <h1 class="title">{{ .Title }}</h1> -->
+</header>
 
-{{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections -}}
-{{ $paginator := .Paginate $pages -}}
+<!-- {{ .Content }} -->
+
+{{ $paginator := .Paginate (.Pages) -}}
 <div class="index-cover-list">
 {{ range $paginator.Pages -}}
 {{ .Render "cover" }}

@@ -1,12 +1,24 @@
 // Set the font sizes to use, fixed or fluid.
 $font-size: $font-size-fluid;
 
+$geometric-heading: 'Carme', $geometric, sans-serif;
+$geometric-text: 'Actor', $geometric, sans-serif;
+
+$font-family: (
+  body:       $geometric-text,
+  headings:   $geometric-heading,
+  alt:        $system-ui,
+  monospace:  $ui-monospace,
+);
+
 // The max content width. (Consider using one of the breakpoints.)
-$max-content-width:   777px;
+$max-content-width:   1200px;
 
 // The max page width. Defaults to max-content-width.
 // Setting this to a larger value than max-content-width allows
 // content with class "stretch" to stretch out to the page edge.
-$max-page-width:      1111px;
+$max-page-width:      1200px;
 
-@import 'comicviewer';
+
+$gutters:             0;
+$gutters-reverse:   0;
