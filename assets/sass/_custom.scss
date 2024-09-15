@@ -6,6 +6,10 @@
   justify-content: space-between;
 }
 
+.layout__hero {
+  padding-inline: var(--gutters);
+}
+
 .main-menu {
   margin-top: .75rem;
   outline: 0;

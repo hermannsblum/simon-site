@@ -19,7 +19,7 @@
 <body class="{{ if .IsPage }}single-page{{ else }}list-page{{ end }}{{ if .IsHome }} front{{ end }}{{ with $.Param "bodyclass" }} {{ . }}{{ end }}">
     <div class="page layout__page{{ if $.Param "sidebar" }} layout__sidebar-second{{ end }}">
 
-    <header class="layout__grid">
+    <header class="layout__grid layout__header">
 <!-- {{ if $.Param "logo" | default true -}} -->
 <!-- <a href="{{ site.Home.RelPermalink }}" title="Home" rel="home" class="header__logo"> -->
 <!-- <img src="{{ with $.Param "logopath" }}{{ . | relURL }}{{ else }}{{ "images/logo.png" | relURL }}{{ end }}"{{ with $.Param "logowidth" }} width="{{ . }}"{{ end }}{{ with $.Param "logoheight" }} height="{{ . }}"{{ end }} alt="Home" class="header__logo-image"> -->
@@ -37,7 +37,7 @@
 </div>
 </div>
 </header>
-<div style="grid-area: 'hero';" class="layout__grid">
+<div style="grid-area: 'hero';" class="layout__grid layout__hero">
 {{ $headerimg := resources.Get "images/header-drawing.jpg" }}
 <img src="{{ $headerimg.RelPermalink }}" style="max-width: 500px;" >
 </div>
