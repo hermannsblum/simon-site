@@ -62,18 +62,18 @@ function showSlides(n) {
 function openModal() {
   document.getElementById("cv-modal").style.display = "block";
   document.addEventListener("keydown", handleKeyDown); // Add event listener for keydown
-  document.addEventListener("touchstart", handleTouchStart, false); // Add touch event listeners
-  document.addEventListener("touchmove", handleTouchMove, false);
-  document.addEventListener("touchend", handleTouchEnd, false);
+  // document.addEventListener("touchstart", handleTouchStart, false); // Add touch event listeners
+  // document.addEventListener("touchmove", handleTouchMove, false);
+  // document.addEventListener("touchend", handleTouchEnd, false);
 }
 
 // Close the Modal
 function closeModal() {
   document.getElementById("cv-modal").style.display = "none";
   document.removeEventListener("keydown", handleKeyDown); // Remove event listener for keydown
-  document.removeEventListener("touchstart", handleTouchStart, false); // Remove touch event listeners
-  document.removeEventListener("touchmove", handleTouchMove, false);
-  document.removeEventListener("touchend", handleTouchEnd, false);
+  // document.removeEventListener("touchstart", handleTouchStart, false); // Remove touch event listeners
+  // document.removeEventListener("touchmove", handleTouchMove, false);
+  // document.removeEventListener("touchend", handleTouchEnd, false);
 }
 
 // Next/previous controls
