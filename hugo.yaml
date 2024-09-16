@@ -62,9 +62,6 @@ languages:
     contentDir: content/en
     menu:
       main:
-        - Name: "Home"
-          weight: -10
-          pageRef: "/"
         - Name: "Disney"
           weight: 2
           pageRef: "/disney/"
@@ -82,9 +79,6 @@ languages:
     contentDir: content/de
     menu:
       main:
-        - Name: "Start"
-          weight: -10
-          pageRef: "/"
         - Name: "Disney"
           weight: 2
           pageRef: "/disney/"

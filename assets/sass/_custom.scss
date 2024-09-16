@@ -10,6 +10,16 @@
   padding-inline: var(--gutters);
 }
 
+// never show mobile nav
+.mobile-nav {
+  display: none;
+}
+.main-menu,
+.header__region { // stylelint-disable selector-class-pattern
+  display: block;
+} // stylelint-enable selector-class-pattern
+
+
 .main-menu {
   margin-top: .75rem;
   outline: 0;
