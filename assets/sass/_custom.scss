@@ -2,8 +2,14 @@
 
 .myheader {
   display: flex;
-  vertical-align: bottom;
+  align-items: baseline;
   justify-content: space-between;
+
+  > .myheader-language {
+    height: var(--fs-xxl);
+    align-items: flex-end;
+    display: flex;
+  }
 }
 
 .layout__hero {
