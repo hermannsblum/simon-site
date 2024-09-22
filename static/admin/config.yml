@@ -7,14 +7,29 @@ backend:
   auth_endpoint: /api/auth
 media_folder: static/img
 public_folder: /img
+i18n:
+  # Required and can be one of multiple_folders, multiple_files or single_file
+  # multiple_folders - persists files in `<folder>/<locale>/<slug>.<extension>`
+  # multiple_files - persists files in `<folder>/<slug>.<locale>.<extension>`
+  # single_file - persists a single file in `<folder>/<slug>.<extension>`
+  structure: multiple_folders
+
+  # Required - a list of locales to show in the editor UI
+  locales: [en, de]
+
+  # Optional, defaults to the first item in locales.
+  # The locale to be used for fields validation and as a baseline for the entry.
+  default_locale: en
+
 collections:
   - name: disney
     label: Disney
     label_singular: 'Disney'
-    folder: content/disney
+    folder: content
+    i18n: true
     create: true
     # adding a nested object will show the collection folder structure
-    path: '{{slug}}/index'
+    path: 'disney/{{slug}}/index'
     media_folder: ''
     public_folder: ''
     fields:
