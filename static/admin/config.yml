@@ -8,15 +8,30 @@ backend:
 media_folder: static/img
 public_folder: /img
 collections:
-  - name: 'blog'
-    label: 'Blog'
-    folder: 'content/blog'
+  - name: disney
+    label: Disney
+    label_singular: 'Disney'
+    folder: content/disney
     create: true
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
-    editor:
-      preview: false
+    # adding a nested object will show the collection folder structure
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
     fields:
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Description', name: 'description', widget: 'string' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: Title
+        name: title
+        widget: string
+      - label: Date
+        name: date
+        widget: datetime
+      - label: Body
+        name: body
+        widget: markdown
+      - label: Cover
+        name: cover
+        widget: image
+      - label: Comic Pages
+        name: comic_pages
+        widget: list
+        fields:
+          - { label: Page, name: page, widget: image }
