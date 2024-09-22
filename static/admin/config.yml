@@ -33,6 +33,9 @@ collections:
     path: 'disney/{{slug}}/index'
     media_folder: ''
     public_folder: ''
+    nested:
+      depth: 3 # max depth to show in the collection tree
+      summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
       - label: Title
         name: title
