@@ -26,8 +26,8 @@ collections:
   - name: disney
     label: Disney
     label_singular: 'Disney'
-    folder: content
-    i18n: true
+    folder: content/en
+    # i18n: true
     create: true
     # adding a nested object will show the collection folder structure
     path: 'disney/{{slug}}/index'
@@ -40,23 +40,23 @@ collections:
       - label: Title
         name: title
         widget: string
-        i18n: true
+        # i18n: true
       - label: Date
         name: date
         widget: datetime
-        i18n: duplicate
+        # i18n: duplicate
       - label: Body
         name: body
         widget: markdown
-        i18n: true
+        # i18n: true
       - label: Cover
         name: cover
         widget: image
-        i18n: true
+        # i18n: true
       - label: Comic Pages
         name: comic_pages
         widget: list
-        i18n: true
+        # i18n: true
         fields:
           - { label: Page, name: page, widget: image }
   - label: "Pages"
