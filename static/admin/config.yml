@@ -54,7 +54,6 @@ collections:
           - { label: Page, name: page, widget: image }
   - label: "Pages"
     name: "pages"
-    i18n: true
     files:
       - name: about
         file: content/about.md
