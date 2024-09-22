@@ -26,15 +26,15 @@ collections:
   - name: disney
     label: Disney
     label_singular: 'Disney'
-    folder: content/en
-    # i18n: true
+    folder: content
+    i18n: true
     create: true
     # adding a nested object will show the collection folder structure
     path: 'disney/{{slug}}/index'
     media_folder: ''
     public_folder: ''
     nested:
-      depth: 3 # max depth to show in the collection tree
+      depth: 5 # max depth to show in the collection tree
       summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
       - label: Title
