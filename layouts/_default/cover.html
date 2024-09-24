@@ -4,7 +4,13 @@
 <!-- {{ if $.Param "submitted" | default false }}{{ partial "submitted.html" . -}}{{ end }} -->
 <!-- </header> -->
 <a href="{{ .RelPermalink }}">
+{{ if .Params }}
+{{ if .Params.cover }}
+{{ if .Resources.Get .Params.cover }}
 {{ partial "comic.html" (dict "src" ( .Resources.Get .Params.cover ).RelPermalink ) }}
+{{ end -}}
+{{ end -}}
+{{ end -}}
 <span class="cover-title">{{ .Title }}</span>
 </a>
 </article>
