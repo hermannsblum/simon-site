@@ -1,6 +1,6 @@
 ---
-title: "Entengrütze"
-baseURL: "https://zen-demo.xdeb.org/"
+title: "unduckover"
+baseURL: "https://unduckover.com/"
 theme: "github.com/frjo/hugo-theme-zen/v4"
 languageCode: "en-GB"
 defaultContentLanguage: "en"
@@ -10,7 +10,7 @@ paginate: 10
 paginatePath: "page"
 rssLimit: 20
 author:
-  name: "Fredrik Jonsson"
+  name: "Rumpelstilzchen"
   url: "https://xdeb.org"
 
 markup:
@@ -59,7 +59,6 @@ languages:
     weight: 1
     languageName: "English"
     languageCode: "en-GB"
-    contentDir: content/en
     menu:
       main:
         - Name: "Disney"
@@ -76,7 +75,6 @@ languages:
     weight: 2
     languageName: "Deutsch"
     languageCode: "de-DE"
-    contentDir: content/de
     menu:
       main:
         - Name: "Disney"
