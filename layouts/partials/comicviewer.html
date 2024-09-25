@@ -1,4 +1,14 @@
-{{ $images := .Resources.ByType "image" -}}
+{{ $images := slice }}
+{{ if .Resources.Get .Params.cover }}
+  {{ $images = slice ( .Resources.Get .Params.cover ) }}
+{{ end }}
+{{ if .Params.comic_pages }}
+{{ if gt (len .Params.comic_pages) 0 }}
+  {{ range .Params.comic_pages }}
+    {{ $images = $images | append ( $.Resources.Get .page ) }}
+  {{ end }}
+{{ end }}
+{{ end }}
 {{ $n_images := len $images }}
 
 <div class="cv-container">
@@ -8,16 +18,17 @@
     src="{{ .RelPermalink }}"
     alt=""> -->
 
+
   {{ range $images }}
   <div class="cv-preview" onclick="openModal();">
-    {{ partial "comic.html" (dict "src" .RelPermalink) }}
+    {{ partial "comic.html" (dict "img" .) }}
   </div>
   {{ end }}
 
   <div class="cv-thumbnails">
   {{ range $idx, $img := $images }}
   <div class="cv-thumbnail" onclick="currentSlide({{ $idx }})">
-    {{ partial "comic.html" (dict "src" $img.RelPermalink) }}
+    {{ partial "comic.html" (dict "img" $img "size" "100px" ) }}
   </div>
   {{ end }}
   </div>
@@ -34,7 +45,18 @@
       <div class="" style="width: 100%; height: 100%; position: relative;">
         <div class="comic-wrapper" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
           <div style="width: 100%; height: 100%;" class="comic">
-            <img src="{{ .RelPermalink }}" style="max-width: 100%; max-height: 100%;" onclick="event.stopPropagation();">
+            <picture style="width: 100%; height: 100%" class="comic">
+              <source srcset="{{ ( $img.Resize "200x webp" ).RelPermalink }} 200w,
+                              {{ ( $img.Resize "400x webp" ).RelPermalink }} 400w,
+                              {{ ( $img.Resize "800x webp" ).RelPermalink }} 800w,
+                              {{ ( $img.Resize "1600x webp" ).RelPermalink }} 1600w" type="image/webp">
+              <source srcset="{{ ( $img.Resize "200x jpg" ).RelPermalink }} 200w,
+                              {{ ( $img.Resize "400x jpg" ).RelPermalink }} 400w,
+                              {{ ( $img.Resize "800x jpg" ).RelPermalink }} 800w,
+                              {{ ( $img.Resize "1600x jpg" ).RelPermalink }} 1600w" type="image/jpeg">
+              <img src="{{ $img.RelPermalink }}" onclick="event.stopPropagation();">
+            </picture>
+            <!-- <img src="{{ $img.RelPermalink }}" style="max-width: 100%; max-height: 100%;" onclick="event.stopPropagation();"> -->
           </div>
         </div>
       </div>

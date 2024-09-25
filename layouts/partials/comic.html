@@ -1,10 +1,21 @@
-{{ $src := .src -}}
+{{ $img := .img -}}
+{{ $size := .size | default "100vw" }}
 {{ $width := .width | default "100%" -}}
 {{ $aspectRatio := .aspectRatio | default "142%" -}} <!-- Default to A4 aspect ratio -->
 {{ $alt := .alt | default "" -}}
 
 <div class="comic-wrapper" style="width: {{ $width }}; padding-top: {{ $aspectRatio }}; position: relative;">
   <div class="comic" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-    <img src="{{ $src }}" alt="{{ $alt }}" style="max-width: 100%; max-height: 100%;">
+    <picture>
+      <source srcset="{{ ( $img.Resize "200x webp" ).RelPermalink }} 200w,
+                      {{ ( $img.Resize "400x webp" ).RelPermalink }} 400w,
+                      {{ ( $img.Resize "800x webp" ).RelPermalink }} 800w,
+                      {{ ( $img.Resize "1600x webp" ).RelPermalink }} 1600w" type="image/webp">
+      <source srcset="{{ ( $img.Resize "200x jpg" ).RelPermalink }} 200w,
+                      {{ ( $img.Resize "400x jpg" ).RelPermalink }} 400w,
+                      {{ ( $img.Resize "800x jpg" ).RelPermalink }} 800w,
+                      {{ ( $img.Resize "1600x jpg" ).RelPermalink }} 1600w" type="image/jpeg">
+      <img src="{{ $img.RelPermalink }}" sizes="{{ $size }}" alt="{{ $alt }}" style="max-width: 100%; max-height: 100%;">
+    </picture>
   </div>
 </div>
