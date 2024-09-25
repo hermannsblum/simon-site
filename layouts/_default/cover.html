@@ -7,7 +7,7 @@
 {{ if .Params }}
 {{ if .Params.cover }}
 {{ if .Resources.Get .Params.cover }}
-{{ partial "comic.html" (dict "img" ( .Resources.Get .Params.cover ) ) }}
+{{ partial "comic.html" (dict "img" ( .Resources.Get .Params.cover ) "size" "50vw" ) }}
 {{ end -}}
 {{ end -}}
 {{ end -}}

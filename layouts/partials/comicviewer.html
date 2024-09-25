@@ -54,7 +54,7 @@
                               {{ ( $img.Resize "400x jpg" ).RelPermalink }} 400w,
                               {{ ( $img.Resize "800x jpg" ).RelPermalink }} 800w,
                               {{ ( $img.Resize "1600x jpg" ).RelPermalink }} 1600w" type="image/jpeg">
-              <img src="{{ $img.RelPermalink }}" onclick="event.stopPropagation();">
+              <img src="{{ $img.RelPermalink }}" onclick="event.stopPropagation();" loading="lazy">
             </picture>
             <!-- <img src="{{ $img.RelPermalink }}" style="max-width: 100%; max-height: 100%;" onclick="event.stopPropagation();"> -->
           </div>
