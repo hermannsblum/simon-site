@@ -67,6 +67,9 @@ languages:
         - Name: "non-disney"
           weight: 2
           pageRef: "/comics/"
+        - Name: "Profile"
+          weight: 9
+          pageRef: "/profile/"
         - Name: "Search"
           weight: 10
           pageRef: "/search/"
@@ -83,6 +86,9 @@ languages:
         - Name: "non-disney"
           weight: 2
           pageRef: "/comics/"
+        - Name: "Profil"
+          weight: 9
+          pageRef: "/profile/"
         - Name: "suche"
           weight: 10
           pageRef: "/suche/"

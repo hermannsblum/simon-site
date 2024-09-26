@@ -59,26 +59,15 @@ collections:
         i18n: true
         fields:
           - { label: Page, name: page, widget: image }
-  - label: "Pages"
-    name: "pages"
-    files:
-      - name: about-en
-        file: content/en/about.md
-        label: About-en
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
-      - name: about-de
-        file: content/de/about.md
-        label: About-de
-        fields:
-          - label: Title
-            name: title
-            widget: string
-          - label: Body
-            name: body
-            widget: markdown
+  - label: "Profil"
+    name: "profile"
+    folder: content/profile
+    i18n: true
+    create: false
+    fields:
+      - label: Title
+        name: title
+        widget: string
+      - label: Body
+        name: body
+        widget: markdown
