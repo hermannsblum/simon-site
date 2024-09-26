@@ -63,7 +63,7 @@ collections:
     name: "profile"
     folder: content/profile
     i18n: true
-    create: false
+    create: true
     fields:
       - label: Title
         name: title
