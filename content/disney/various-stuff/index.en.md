@@ -1,0 +1,16 @@
+---
+title: Various Stuff
+date: 2024-09-28T16:17:00.000Z
+cover: cover-fm.png
+comic_pages:
+  - page: model-sheet.png
+---
+
+
+Date of origin: 2020 – now
+
+Tools: Sketches on paper with pencil, drawing and inking with Procreate on iPad
+
+Content: Various sketches, model sheets for Donald, but also a redrawing of Frank Miller's Scrooge cover
+
+Background: The leftovers category. Everything that doesn't fit anywhere else is presented here. For example, I love the Scrooge cover by Frank Miller. Or rather the idea. However, Mr. Miller's physical limitations prevented a nice drawing. I've also noticed with other covers that good superhero artists can't draw good ducks necessarily. In all modesty, I tried to draw this great cover closer to the Disney style.
