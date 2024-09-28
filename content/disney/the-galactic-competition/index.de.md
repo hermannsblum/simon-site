@@ -5,6 +5,8 @@ cover: titelbild.png
 comic_pages:
   - page: geschichte-seite1.png
 ---
+
+
 Entstehungszeit: 2024
 
 Werkzeug: Vorzeichnung auf Papier mit Bleistift, Ausarbeitung und Tusche mit Procreate auf iPad
