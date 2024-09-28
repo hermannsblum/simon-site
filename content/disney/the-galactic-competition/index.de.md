@@ -5,6 +5,12 @@ cover: titelbild.png
 comic_pages:
   - page: geschichte-seite1.png
   - page: 2-seite2.png
+  - page: 2-seite3.png
+  - page: 2-seite4.png
+  - page: 2-seite5.png
+  - page: 2-seite6.png
+  - page: 2-seite7.png
+  - page: 2-seite8.png
 ---
 
 
