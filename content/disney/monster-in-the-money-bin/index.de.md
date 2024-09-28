@@ -2,6 +2,16 @@
 title: Das Ungeheuer im Geldspeicher
 date: 2024-09-28T15:56:00.000Z
 cover: 1-titelbild.png
+comic_pages:
+  - page: 1-seite1.png
+  - page: 1-seite2.png
+  - page: 1-seite3.png
+  - page: 1-seite4.png
+  - page: 1-seite5.png
+  - page: 1-seite6.png
+  - page: 1-seite7.png
+  - page: 1-seite8.png
+  - page: 1-seite-bunt.png
 ---
 
 
