@@ -1,6 +1,6 @@
 ---
 title: Verschiedenes
-date: 2024-09-28T16:17:00.000Z
+date: 2024-09-29T17:44:00.000Z
 cover: cover-fm.png
 comic_pages:
   - page: model-sheet.png
