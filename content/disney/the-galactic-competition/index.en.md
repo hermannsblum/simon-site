@@ -3,7 +3,14 @@ title: The Galactic Competition
 date: 2024-09-24T22:49:00.000Z
 cover: cover-en.png
 comic_pages:
-  - page: geschichte-seite1.png
+  - page: 2-page1.png
+  - page: 2-page2.png
+  - page: 2-page3.png
+  - page: 2-page4.png
+  - page: 2-page5.png
+  - page: 2-page6.png
+  - page: 2-page7.png
+  - page: 2-page8.png
 ---
 
 
