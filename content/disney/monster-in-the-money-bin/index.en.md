@@ -1,6 +1,6 @@
 ---
 title: Monster in the Money Bin
-date: 2024-09-28T15:56:00.000Z
+date: 2024-09-29T17:42:00.000Z
 cover: 1-cover.png
 ---
 
