@@ -4,6 +4,9 @@ date: 2024-09-28T16:17:00.000Z
 cover: cover-fm.png
 comic_pages:
   - page: model-sheet.png
+  - page: poster.png
+  - page: 5p-eng.png
+  - page: 5p-eng-col.png
 ---
 
 
