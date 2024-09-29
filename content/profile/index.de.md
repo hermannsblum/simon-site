@@ -20,3 +20,5 @@ Aktuelle Procreate Version (5.3.10) auf iPad (8.Generation)
 100% Unkommerziell und Inoffiziell 
 
 Kontakt: unduckover@web.de
+
+![](/images/porträt.png)
