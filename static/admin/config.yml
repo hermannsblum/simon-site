@@ -59,6 +59,42 @@ collections:
         i18n: true
         fields:
           - { label: Page, name: page, widget: image }
+  - name: nondisney
+    label: Non-Disney
+    label_singular: 'Non-Disney'
+    folder: content/comics
+    i18n: true
+    create: true
+    # adding a nested object will show the collection folder structure
+    path: '{{slug}}/index'
+    media_folder: ''
+    public_folder: ''
+    # nested:
+      # depth: 5 # max depth to show in the collection tree
+      # summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
+    fields:
+      - label: Title
+        name: title
+        widget: string
+        i18n: true
+      - label: Date
+        name: date
+        widget: datetime
+        i18n: duplicate
+      - label: Body
+        name: body
+        widget: markdown
+        i18n: true
+      - label: Cover
+        name: cover
+        widget: image
+        i18n: true
+      - label: Comic Pages
+        name: comic_pages
+        widget: list
+        i18n: true
+        fields:
+          - { label: Page, name: page, widget: image }
   - label: "Profil"
     name: "profile"
     folder: content/profile
