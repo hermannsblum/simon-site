@@ -1,0 +1,26 @@
+{{ define "hero" }}
+<div class="flex-group flex-group--2">
+    <div>
+        Herzlich Willkommen in einer Welt abseits offizieller Disney-Comics! Ich bin ein großer Fan der Geschichten von Donald Duck und seiner Familie und möchte auf dieser Webseite meine eigenen Zeichnungen und Geschichten präsentieren. Ich werde regelmäßig Inhalte hochladen. Schaut also öfter mal vorbei… und viel Spaß beim Stöbern!
+<br>Rumpelstilzchen (Offensichtlich ein Pseudonym)
+
+    </div>
+    <div>{{ $headerimg := resources.Get "images/Willkommensbild.png" }}
+        <img src="{{ $headerimg.RelPermalink }}" style="max-height: 500px;" >
+    </div>
+</div>
+{{ end }}
+
+{{ define "main" -}}
+<main class="main layout__main">
+
+{{ $paginator := .Paginate (.Pages) -}}
+<div class="index-cover-list">
+{{ range $paginator.Pages -}}
+{{ .Render "cover" }}
+{{ end -}}
+</div>
+
+{{ partial "pagination.html" . }}
+</main>
+{{ end -}}

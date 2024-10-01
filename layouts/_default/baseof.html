@@ -38,8 +38,7 @@
 </div>
 </header>
 <div style="grid-area: 'hero';" class="layout__grid layout__hero">
-{{ $headerimg := resources.Get "images/header-drawing.jpg" }}
-<img src="{{ $headerimg.RelPermalink }}" style="max-width: 500px;" >
+    {{ block "hero" . }}{{ end }}
 </div>
 
 {{ if not ($.Param "menuinheader") }}{{ partial "menu.html" . }}{{ end -}}
