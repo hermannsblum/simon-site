@@ -1,7 +1,9 @@
 ---
 title: Scroogon
 date: 2024-09-29T15:09:00.000Z
-cover: platzhalter-eng.png
+cover: scroogon.png
+comic_pages:
+  - page: platzhalter-eng.png
 ---
 
 
