@@ -1,7 +1,7 @@
 ---
 title: Der vierte Caballero
 date: 2024-09-30T14:33:00.000Z
-cover: cab.png
+cover: 4-deutsch.png
 comic_pages:
   - page: platzhalter.png
 ---
