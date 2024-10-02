@@ -1,9 +1,9 @@
 ---
 title: Les Misérables
 date: 2024-09-29T14:58:00.000Z
-cover: skizze.jpeg
+cover: aven.png
 comic_pages:
-  - page: aven.png
+  - page: skizze.jpeg
   - page: platzhalter-eng.png
 ---
 
