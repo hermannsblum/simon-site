@@ -36,7 +36,7 @@ outputs:
 params:
   contact: "frjo@xdeb.org"
   copyright: 'c Simon Gies'
-  description: "The zen theme for Hugo demo site."
+  description: "Entenunterschlupf"
   dateformat: "2 January, 2006"
   favicon: "apple-touch-icon.png"
   feedlinks: false
