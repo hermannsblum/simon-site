@@ -1,5 +1,14 @@
 ---
 title: Oath
+cover: oath-1.png
+comic_pages:
+  - page: oath-2.png
+  - page: oath-3.png
+  - page: oath-4.png
+  - page: oath-5.png
+  - page: oath-6.png
+  - page: oath-7.png
+  - page: oath-8.png
 ---
 Entstehungszeit: 2022-2023
 
