@@ -1,7 +1,9 @@
 ---
 title: Where do Ducks go in Winter?
 date: 2024-09-29T14:47:00.000Z
-cover: platzhalter-eng.png
+cover: bio-eng.png
+comic_pages:
+  - page: platzhalter-eng.png
 ---
 
 

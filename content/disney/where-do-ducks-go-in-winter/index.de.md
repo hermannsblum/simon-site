@@ -1,7 +1,9 @@
 ---
 title: Wohin gehen die Enten im Winter?
 date: 2024-09-29T14:47:00.000Z
-cover: platzhalter.png
+cover: bio.png
+comic_pages:
+  - page: platzhalter.png
 ---
 
 
