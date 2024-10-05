@@ -12,14 +12,10 @@
 {{ end -}}
 {{ end -}}
 <div class="page-info">
-    {{ if .Params.comic_pages }}
-    {{ if eq (len .Params.comic_pages) 1 }}
-    1 page
-    {{ else }}
-    {{ len .Params.comic_pages }} pages
-    {{ end }}
-    {{ else }}
-    no pages yet
+    {{ if and (.Params.comic_pages) (gt (len .Params.comic_pages) 0) }}
+    {{ i18n "cover_count_label" (len .Params.comic_pages) }}
+    {{ else}}
+    {{ i18n "cover_count_zero" }}
     {{ end }}
 </div>
 <span class="cover-title">{{ .Title }}</span>
