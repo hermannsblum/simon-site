@@ -60,6 +60,8 @@ languages:
     weight: 1
     languageName: "English"
     languageCode: "en-GB"
+    params:
+      footer: "[imprint](/imprint) | [privacy policy](/privacy)"
     menu:
       main:
         - Name: "Disney"
@@ -76,6 +78,8 @@ languages:
     weight: 2
     languageName: "Deutsch"
     languageCode: "de-DE"
+    params:
+      footer: "[Impressum](/imprint) | [Datenschutz](/privacy)"
     menu:
       main:
         - Name: "Disney"
