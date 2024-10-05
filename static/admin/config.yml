@@ -37,15 +37,26 @@ collections:
       # depth: 5 # max depth to show in the collection tree
       # summary: '{{title}}' # optional summary for a tree node, defaults to the inferred title field
     fields:
-      - label: Title
+      - label: Titel
         name: title
         widget: string
         i18n: true
-      - label: Date
+      - label: Tag der Veröffentlichung
         name: date
         widget: datetime
         i18n: duplicate
-      - label: Body
+      - label: Arbeitsbeginn
+        name: work_start
+        widget: number
+        value_type: int
+        i18n: duplicate
+      - label: Arbeitsende
+        name: work_end
+        widget: number
+        value_type: int
+        i18n: duplicate
+        default: 0
+      - label: Text
         name: body
         widget: markdown
         i18n: true
@@ -53,7 +64,7 @@ collections:
         name: cover
         widget: image
         i18n: true
-      - label: Comic Pages
+      - label: Comic Seiten
         name: comic_pages
         widget: list
         i18n: true
