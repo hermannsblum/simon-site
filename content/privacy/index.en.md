@@ -1,3 +1,4 @@
 ---
-title: data protection statement
+title: data privacy statement
 ---
+privacy
