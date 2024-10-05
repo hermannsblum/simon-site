@@ -5,6 +5,10 @@
 <meta name="viewport" content="width=device-width">
 <title>{{ block "title" . }}{{ .Title }} – {{ site.Title }}{{ end }}</title>
 {{ partial "meta.html" . }}
+<!-- 100% privacy-first analytics -->
+<script async defer src="https://scripts.simpleanalyticscdn.com/latest.js"></script>
+<noscript><img src="https://queue.simpleanalyticscdn.com/noscript.gif" alt="" referrerpolicy="no-referrer-when-downgrade" /></noscript>
+
 {{ partialCached "styles.html" . }}
 {{ partial "meta_json_ld.html" . }}
 {{ partial "scripts.html" . }}
