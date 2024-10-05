@@ -11,6 +11,17 @@
 {{ end -}}
 {{ end -}}
 {{ end -}}
+<div class="page-info">
+    {{ if .Params.comic_pages }}
+    {{ if eq (len .Params.comic_pages) 1 }}
+    1 page
+    {{ else }}
+    {{ len .Params.comic_pages }} pages
+    {{ end }}
+    {{ else }}
+    no pages yet
+    {{ end }}
+</div>
 <span class="cover-title">{{ .Title }}</span>
 </a>
 </article>

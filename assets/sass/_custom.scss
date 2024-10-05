@@ -82,6 +82,12 @@
   > a {
     text-decoration: none;
   }
+
+  * > .page-info {
+    color: var(--color-text-meta);
+    font-family: var(--ff-headings);
+    font-size: var(--fs-xs);
+  }
 }
 
 .comic {
