@@ -2,7 +2,7 @@
 title: "Alternativer Anfang: Sein Leben Seine Milliarden"
 date: 2024-09-29T17:45:00.000Z
 work_start: 2022
-cover: los-1.png
+cover: slsm-1.png
 comic_pages:
   - page: platzhalter.png
 ---
