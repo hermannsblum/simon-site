@@ -1,6 +1,7 @@
 ---
 title: Various Stuff
 date: 2024-09-29T17:44:00.000Z
+work_start: 2020
 cover: cover-fm.png
 comic_pages:
   - page: model-sheet.png

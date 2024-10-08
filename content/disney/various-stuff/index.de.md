@@ -1,10 +1,11 @@
 ---
 title: Verschiedenes
 date: 2024-09-29T17:44:00.000Z
+work_start: 2020
 cover: cover-fm.png
 comic_pages:
   - page: model-sheet.png
-  - page: poster.png
+  - page: poster-deutsch.png
   - page: 5p.png
   - page: 5p-bunt.png
 ---
