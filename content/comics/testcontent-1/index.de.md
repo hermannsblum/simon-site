@@ -1,5 +1,7 @@
 ---
 title: Oath
+work_start: 2022
+work_end: 2023
 cover: oath-1.png
 comic_pages:
   - page: oath-2.png
@@ -16,4 +18,4 @@ Werkzeug: Vorzeichnung auf Papier mit Bleistift, Ausarbeitung und Tusche mit Pro
 
 Inhalt: Verschiedene Zeichnungen zum Brettspiel Oath
 
-Hintergrund: Oath ist ein Brettspiel aus dem Jahr 2021. Beendete Spielerunden können dort in einem Tagebuch verschriftlicht werden. Oder man zeichnet das Abenteuer. Auf Reddit kann man verschiedene coole Zeichnungen finden. Tatsächlich habe Ich das Spiel selbst nie gespielt. Ich habe für eine Spielegruppe gezeichnet, die mir ihre Abenteuer erzählt hat.
+Hintergrund: Oath ist ein Brettspiel aus dem Jahr 2021. Beendete Spielerunden können dort in einem Tagebuch verschriftlicht werden. Oder man zeichnet das Abenteuer. Auf Reddit kann man verschiedene coole Zeichnungen finden. Tatsächlich habe Ich das Spiel selbst nie gespielt. Ich habe für eine Spielegruppe gezeichnet, die mir ihre Abenteuer erzählt hat. Die Designs und den Stil habe ich von den Originalbildern von Kyle Ferrin übernommen.
