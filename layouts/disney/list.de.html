@@ -5,8 +5,8 @@
 <br>Rumpelstilzchen (Offensichtlich ein Pseudonym)
 
     </div>
-    <div>{{ $headerimg := resources.Get "images/Willkommensbild.png" }}
-        <img src="{{ $headerimg.RelPermalink }}" style="max-height: 500px;" >
+    <div>{{ $headerimg := resources.Get "images/Willkommensbild_de.png" }}
+        <img src="{{ ($headerimg.Resize "1200x jpg" ).RelPermalink }}" style="max-height: 500px;" >
     </div>
 </div>
 {{ end }}
