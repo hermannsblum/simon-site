@@ -1,7 +1,8 @@
 ---
 title: Die Elenden
 date: 2024-09-29T14:58:00.000Z
-cover: phan.png
+work_start: 2019
+cover: phan-cover.png
 comic_pages:
   - page: skizze.jpeg
   - page: platzhalter.png
