@@ -1,6 +1,7 @@
 ---
 title: Dagoberton
 date: 2024-09-29T15:09:00.000Z
+work_start: 2021
 cover: dagoberton.png
 comic_pages:
   - page: platzhalter.png
