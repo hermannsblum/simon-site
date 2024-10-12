@@ -1,6 +1,7 @@
 ---
 title: The Fourth Caballero
 date: 2024-09-30T14:33:00.000Z
+work_start: 2024
 cover: 4-englisch.png
 comic_pages:
   - page: platzhalter-eng.png
