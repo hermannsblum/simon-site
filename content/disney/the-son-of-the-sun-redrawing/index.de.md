@@ -6,8 +6,6 @@ cover: sonne.png
 comic_pages:
   - page: platzhalter.png
 ---
-
-
 Entstehungszeit 2024 – aktuell
 
 Werkzeug: Idee in meinem Gehirn
