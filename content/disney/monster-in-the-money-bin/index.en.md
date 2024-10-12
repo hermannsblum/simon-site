@@ -1,6 +1,7 @@
 ---
 title: Monster in the Money Bin
 date: 2024-09-29T17:45:00.000Z
+work_start: 2023
 cover: 1-cover.png
 comic_pages:
   - page: 1-page1.png

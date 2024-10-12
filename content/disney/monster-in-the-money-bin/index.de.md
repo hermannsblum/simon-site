@@ -1,6 +1,7 @@
 ---
 title: Das Ungeheuer im Geldspeicher
 date: 2024-09-29T17:45:00.000Z
+work_start: 2023
 cover: 1-titelbild.png
 comic_pages:
   - page: 1-seite1.png
