@@ -7,8 +7,6 @@ comic_pages:
   - page: skizze.jpeg
   - page: platzhalter-eng.png
 ---
-
-
 Date of origin: 2019 - now
 
 Tools: Concept on paper, sketches on paper
