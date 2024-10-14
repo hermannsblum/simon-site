@@ -2,7 +2,7 @@
 title: Der Sohn der Sonne - Neuzeichnung
 date: 2024-09-29T15:12:00.000Z
 work_start: 2024
-cover: sonne.png
+cover: sonne-cover.png
 comic_pages:
   - page: platzhalter.png
 ---
