@@ -2,7 +2,7 @@
 title: Auf zum Mond!
 date: 2024-09-29T14:50:00.000Z
 work_start: 2023
-cover: mond.png
+cover: della-mond.png
 comic_pages:
   - page: platzhalter.png
 ---
