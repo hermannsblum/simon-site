@@ -2,7 +2,7 @@
 title: The Son of the Sun - Redrawing
 date: 2024-09-29T15:12:00.000Z
 work_start: 2024
-cover: sun-cover.png
+cover: sun1.png
 comic_pages:
   - page: platzhalter-eng.png
 ---
