@@ -2,7 +2,7 @@
 title: Vorwärts in die Vergangenheit
 date: 2024-09-29T15:06:00.000Z
 work_start: 2020
-cover: vergangenheit.png
+cover: vergangenheit1.png
 comic_pages:
   - page: platzhalter.png
 ---
