@@ -4,6 +4,7 @@ date: 2024-09-29T15:09:00.000Z
 work_start: 2021
 cover: scroogon.png
 comic_pages:
+  - page: scroogon-1.png
   - page: platzhalter-eng.png
 ---
 
