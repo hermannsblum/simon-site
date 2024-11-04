@@ -8,6 +8,7 @@ comic_pages:
   - page: poster-deutsch.png
   - page: 5p.png
   - page: 5p-bunt.png
+  - page: mmw.png
 ---
 
 

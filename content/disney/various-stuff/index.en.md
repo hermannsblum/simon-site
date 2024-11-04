@@ -8,6 +8,7 @@ comic_pages:
   - page: poster.png
   - page: 5p-eng.png
   - page: 5p-eng-col.png
+  - page: mmw.png
 ---
 
 
