@@ -5,6 +5,7 @@ work_start: 2021
 cover: scroogon.png
 comic_pages:
   - page: scroogon-1.png
+  - page: scroogon-2.png
   - page: platzhalter-eng.png
 ---
 
