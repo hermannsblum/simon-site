@@ -15,6 +15,7 @@ Die in der Non-Disney Rubrik unter Oath verwendeten Figuren stammen von Kyle Fer
 
 Die genutzten Marken und urheberrechtlich geschützte Materialien dienen keinerlei kommerziellen Zwecken, die Webseite ist ein komplett inoffizielles Fanprojekt!
 
-
+Hinweis: Die Nutzung der Inhalte dieser Webseite für kommerzielles Text- 
+und Data-Mining im Sinne von § 44b UrhG behalten wir uns explizit vor.
 
 ![](/images/logo_unduckover.png)
