@@ -4,7 +4,9 @@ date: 2024-09-29T14:47:00.000Z
 work_start: 2023
 cover: bio-eng.png
 comic_pages:
-  - page: chapter-1.png
+  - page: chapter_1.png
+  - page: chapter_2.png
+  - page: chapter_3.png
   - page: platzhalter-eng.png
 ---
 Date of origin: 2023- now

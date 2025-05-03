@@ -4,7 +4,9 @@ date: 2024-09-29T14:47:00.000Z
 work_start: 2023
 cover: bio.png
 comic_pages:
-  - page: kapitel-1.png
+  - page: kapitel_1.png
+  - page: kapitel_2.png
+  - page: kapitel_3.png
   - page: platzhalter.png
 ---
 Entstehungszeit: 2023- aktuell
