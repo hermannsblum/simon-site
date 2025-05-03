@@ -15,6 +15,6 @@ The figures used in the Non-Disney section under Oath are by Kyle Ferrin and Col
 
 The trademarks and copyrighted materials used are not for commercial purposes, the website is a completely unofficial fan project!
 
-Note: We explicitly reserve the right to use the content of this website for commercial text and data mining within the meaning of § 44b UrhG.
+Note: We explicitly reserve the right to use the content of this website (unduckover.com) for commercial text and data mining within the meaning of § 44b UrhG.
 
 ![](/images/logo_unduckover.png)
