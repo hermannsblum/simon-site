@@ -2,7 +2,6 @@
 title: The Revelation of Donald Fauntleroy Duck
 date: 2025-06-28T16:49:00.000Z
 work_start: 2025
-work_end: ""
 cover: bertel-cover-e.png
 comic_pages:
   - page: unduck.png
