@@ -4,8 +4,7 @@ date: 2025-06-28T16:49:00.000Z
 work_start: 2025
 work_end: ""
 cover: bertel-cover.png
-comic_pages:
-  - page: unduck.png
+comic_pages: []
 ---
 Entstehungszeit: 2025
 
@@ -18,3 +17,5 @@ Hintergrund: Ein neues Projekt in Zusammenarbeit mit dem deutschen Fanmagazin Be
 https://bertel-express.wixsite.com/fanzine/therevelationofdonaldfauntleroyduck
 
 https://www.instagram.com/bertel_express/
+
+(Dort sind meine Seiten sogar koloriert, nicht verpassen!)

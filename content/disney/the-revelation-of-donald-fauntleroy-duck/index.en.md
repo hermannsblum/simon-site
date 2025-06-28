@@ -3,8 +3,7 @@ title: The Revelation of Donald Fauntleroy Duck
 date: 2025-06-28T16:49:00.000Z
 work_start: 2025
 cover: bertel-cover-e.png
-comic_pages:
-  - page: unduck.png
+comic_pages: []
 ---
 Date of origin: 2025
 
@@ -17,3 +16,5 @@ Background: A new project in collaboration with the German fan magazine Bertel-E
 https://bertel-express.wixsite.com/fanzine/therevelationofdonaldfauntleroyduck
 
 https://www.instagram.com/bertel_express/
+
+(My pages are even colored there, don't miss it!)
