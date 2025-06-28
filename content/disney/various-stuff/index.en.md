@@ -9,6 +9,7 @@ comic_pages:
   - page: 5p-eng.png
   - page: 5p-eng-col.png
   - page: mmw.png
+  - page: perry.png
 ---
 
 
