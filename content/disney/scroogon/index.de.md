@@ -6,7 +6,9 @@ cover: dagoberton.png
 comic_pages:
   - page: dagoberton-1.png
   - page: dagoberton-2.png
-  - page: dagoberton_3.png
+  - page: dagoberton-3.png
+  - page: dagoberton-4.png
+  - page: dagoberton-5.png
   - page: platzhalter.png
 ---
 

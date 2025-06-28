@@ -6,7 +6,9 @@ cover: scroogon.png
 comic_pages:
   - page: scroogon-1.png
   - page: scroogon-2.png
-  - page: scroogon_3.png
+  - page: scroogon-3.png
+  - page: scroogon-4.png
+  - page: scroogon-5.png
   - page: platzhalter-eng.png
 ---
 
