@@ -9,7 +9,7 @@ Entstehungszeit: 2025
 
 Werkzeug: Vorzeichnung auf Papier mit Bleistift, Ausarbeitung und Tusche mit Procreate auf iPad
 
-Inhalt: Ich weiß es selber nicht :)
+Inhalt: Ich weiß es selber nicht!
 
 Hintergrund: Ein neues Projekt in Zusammenarbeit mit dem deutschen Fanmagazin Bertel-Express. Die Grundidee basiert auf dem Spiel eine Seite vorzugeben, die der nächste Teilnehmer fortsetzt. Um die Grundlage der Geschichte vorzugeben, habe ich das Cover und die ersten fünf Seiten geschrieben und gezeichnet. Für das gesamte Projekt schaut doch auf der Webseite des Bertel-Expresses vorbei oder ihrem Instagramaccount: 
 
