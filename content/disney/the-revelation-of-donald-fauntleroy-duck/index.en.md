@@ -7,7 +7,7 @@ cover: bertel-cover-e.png
 ---
 Date of origin: 2025
 
-Tools: Concept on paper
+Tools: Sketches on paper with pencil, drawing and inking with Procreate on iPad
 
 Content: I can't tell you :)
 
