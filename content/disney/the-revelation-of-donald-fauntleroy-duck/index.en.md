@@ -5,6 +5,7 @@ work_start: 2025
 cover: bertel-cover-e.png
 comic_pages:
   - page: img_1756-kopie.png
+  - page: trodfd-2-kopie.png
 ---
 Date of origin: 2025
 
