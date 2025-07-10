@@ -9,6 +9,7 @@ comic_pages:
   - page: scroogon-3.png
   - page: scroogon-4.png
   - page: scroogon-5.png
+  - page: scroogon-6.png
   - page: platzhalter-eng.png
 ---
 
