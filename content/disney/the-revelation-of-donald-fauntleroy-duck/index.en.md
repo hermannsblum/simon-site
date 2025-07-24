@@ -7,6 +7,7 @@ comic_pages:
   - page: img_1756-kopie.png
   - page: trodfd-2-kopie.png
   - page: trodfd-3.png
+  - page: trodfd-e-copy.png
 ---
 Date of origin: 2025
 
