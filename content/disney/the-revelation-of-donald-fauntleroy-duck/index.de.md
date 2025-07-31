@@ -9,6 +9,7 @@ comic_pages:
   - page: trodfd-2-d-kopie.png
   - page: trodfd-3-d.png
   - page: trodfd-d-kopie.png
+  - page: trodfd-s5-d.png
 ---
 Entstehungszeit: 2025
 
