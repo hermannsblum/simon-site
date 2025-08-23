@@ -7,9 +7,10 @@ comic_pages:
   - page: model-sheet.png
   - page: poster-deutsch.png
   - page: 5p.png
-  - page: 5p-bunt.png
   - page: mmw.png
   - page: perry.png
+  - page: jokus1.png
+  - page: jokus2.png
 ---
 
 
