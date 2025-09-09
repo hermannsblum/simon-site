@@ -11,7 +11,12 @@ comic_pages:
   - page: dagoberton-5.png
   - page: dagoberton-6.png
   - page: dagoberton-7.png
-  - page: platzhalter.png
+  - page: dagoberton7.png
+  - page: dagoberton8.png
+  - page: dagoberton9.png
+  - page: dagoberton10.png
+  - page: dagoberton11.png
+  - page: dagoberton12.png
 ---
 
 
