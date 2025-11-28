@@ -10,7 +10,7 @@ comic_pages:
   - page: trodfd-3-d.png
   - page: trodfd-d-kopie.png
   - page: trodfd-s5-d.png
-  - {}
+  - page: rebo-d.png
 ---
 Entstehungszeit: 2025
 
