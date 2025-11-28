@@ -9,6 +9,7 @@ comic_pages:
   - page: trodfd-3.png
   - page: trodfd-e-copy.png
   - page: trodfd-p5.png
+  - page: rebo.png
 ---
 Date of origin: 2025
 
