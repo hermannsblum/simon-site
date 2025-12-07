@@ -7,7 +7,7 @@ comic_pages: []
 ---
 Date of origin: 2025- now
 
-Tools: 
+Tools: Drawing and inking with Procreate on iPad
 
 Content: 
 
