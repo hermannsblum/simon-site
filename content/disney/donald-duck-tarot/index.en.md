@@ -7,8 +7,6 @@ comic_pages: []
 ---
 Date of origin: 2025- now
 
-Tools: Drawing and inking with Procreate on iPad
+Tools: Drawing, inking and colour with Procreate on iPad
 
-Content: 
-
-Background:
+Content: A complete Tarot set (Major and Minor Arcana) with Donald and friends!
