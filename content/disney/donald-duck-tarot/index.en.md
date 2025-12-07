@@ -5,4 +5,10 @@ work_start: 2025
 cover: tarot0e.png
 comic_pages: []
 ---
-Test
+Date of origin: 2025- now
+
+Tools: 
+
+Content: 
+
+Background:
