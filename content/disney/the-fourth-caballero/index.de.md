@@ -4,6 +4,7 @@ date: 2024-09-30T14:33:00.000Z
 work_start: 2024
 cover: 4-deutsch.png
 comic_pages:
+  - page: caballeros1d.png
   - page: platzhalter.png
 ---
 
