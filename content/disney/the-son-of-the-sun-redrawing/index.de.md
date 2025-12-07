@@ -4,6 +4,7 @@ date: 2024-09-29T15:12:00.000Z
 work_start: 2024
 cover: sonne1.png
 comic_pages:
+  - page: donrosa1d.png
   - page: platzhalter.png
 ---
 Entstehungszeit 2024 – aktuell
