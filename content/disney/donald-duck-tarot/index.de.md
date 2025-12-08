@@ -12,4 +12,4 @@ Inhalt: Ein komplettes Tarot-Set (Große und kleine Arkana) mit Donald und Freun
 
 Hintergrund: Schwarz-Weiß ist doch auf Dauer langweilig... aber Koloration ist nicht so mein Fachgebiet. Also brauche ich etwas zum Training. Doch eine komplette Comicseite zu kolorieren ist unglaublich aufwendig, also wollte ich kleinere Bilder nehmen. 
 
-Was ist also besser geeignet als Tarot? Ich versuche die klassische Symbolik mit legendären Designs, Geschichten und Figuren aus Entenhasuen zu kombinieren. Viel Spaß beim Kartenlegen!
+Was ist also besser geeignet als Tarot? Ich versuche die klassische Symbolik mit legendären Designs, Geschichten und Figuren aus Entenhausen zu kombinieren. Viel Spaß beim Kartenlegen!
