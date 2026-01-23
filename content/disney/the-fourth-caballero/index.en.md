@@ -5,6 +5,7 @@ work_start: 2024
 cover: 4-englisch.png
 comic_pages:
   - page: caballeros1e.png
+  - page: caballeros-2-e.png
   - page: platzhalter-eng.png
 ---
 
