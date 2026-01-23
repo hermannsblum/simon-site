@@ -11,6 +11,7 @@ comic_pages:
   - page: perry.png
   - page: jokus1-e.png
   - page: jokus2-e.png
+  - page: be-cover-e.jpeg
 ---
 
 
