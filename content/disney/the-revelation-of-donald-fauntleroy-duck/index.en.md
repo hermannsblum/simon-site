@@ -10,6 +10,9 @@ comic_pages:
   - page: trodfd-e-copy.png
   - page: trodfd-p5.png
   - page: rebo.png
+  - page: rump1-e.png
+  - page: rump2-e.png
+  - page: rump3-e.png
 ---
 Date of origin: 2025
 
