@@ -3,6 +3,10 @@ title: Donald Duck Tarot
 date: 2025-12-07T21:33:00.000+01:00
 work_start: 2025
 cover: tarot0d.png
+comic_pages:
+  - page: tarot1d.png
+  - page: tarot21d.png
+  - page: tarotkönig1.png
 ---
 Entstehungszeit: 2025 - aktuell
 
