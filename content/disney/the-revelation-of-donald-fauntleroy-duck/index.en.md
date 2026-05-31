@@ -13,6 +13,7 @@ comic_pages:
   - page: rump1-e.png
   - page: rump2-e.png
   - page: rump3-e.png
+  - page: episode24-eng.png
 ---
 Date of origin: 2025
 
