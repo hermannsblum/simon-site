@@ -11,4 +11,8 @@ comic_pages:
   - page: horror4d.png
   - page: horror5d.png
 ---
-Test
+In der Tradition der alten EC-Comics erzählt hier der Tod eine gruselige Geschichte über die Bewohner von Entenhausen. 
+
+
+
+Ein paar meiner anderen Projekte sind ins Stocken geraten, ich wollte aber etwas zeichnen, um in Übung zu bleiben. Also hier eine kleine, aber feine Geschichte, passend zum Gruseln!

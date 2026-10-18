@@ -13,8 +13,8 @@ comic_pages:
 ---
 Date of origin: 2026
 
-Tools: Concept on paper
+Tools: Concept on paper, drawing and inking with Procreate on iPad
 
-Content: Donald, Panchito Pistoles and Jose Carioca visit the fourth caballero Miguelito Maracas in Cuba - never used in official films. But he is afraid that the visit will reveal the treasures of Cuba and destroy his beloved paradise.
+Content: In the Tradition of the old EC-Comics, Death tells a spooky story about the residents of Duckburg. 
 
-Background: I read about the fourth Caballero for the first time during a visit to the museum. I was immediately tempted to turn it into a story. It's more or less the sequel to Don Rosa's two Caballero stories. Maybe I can hide the Aracuan bird in the story. As far as I know, there are many stories in Brazil with the Caballeros, even Miguelito Maracas is said to appear in a comic. Unfortunately, I can't read all the stories...
+Background: A few of my other projects have stalled, but I wanted to draw something to keep my skills sharp. So here's a short but sweet story—just the thing to give you the creeps!
