@@ -15,6 +15,8 @@ comic_pages:
   - page: rump2-d.png
   - page: rump3-d.png
   - page: episode24-d.png
+  - page: 27d.png
+  - page: 28d.png
 ---
 Entstehungszeit: 2025
 
