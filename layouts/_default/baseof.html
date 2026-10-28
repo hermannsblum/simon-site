@@ -61,6 +61,20 @@
 {{ with $.Param "footer" }}<p>{{ . | markdownify }}</p>{{ end }}
 {{ if $.Param "poweredby" }}<p>Powered by <a href="https://gohugo.io/">Hugo</a> and the <a href="https://github.com/frjo/hugo-theme-zen">Zen theme</a>.</p>{{ end }}
 {{ end -}}
+<a href="https://www.simpleanalytics.com?utm_source=unduckover.com&amp;utm_content=badge" referrerpolicy="origin" target="_blank">
+  <picture>
+    <source
+      srcset="https://simpleanalyticsbadges.com/unduckover.com?mode=dark&amp;counter=false&amp;radius=10&amp;background=%23ffffff&amp;text=%23a5c0c4&amp;logo=%23a5c0c4"
+      media="(prefers-color-scheme: dark)"
+    />
+    <img
+      src="https://simpleanalyticsbadges.com/unduckover.com?mode=light&amp;counter=false&amp;radius=10&amp;background=%23ffffff&amp;text=%23a5c0c4&amp;logo=%23a5c0c4"
+      loading="lazy"
+      referrerpolicy="no-referrer"
+      crossorigin="anonymous"
+    />
+  </picture>
+</a>
 </footer>
 
 {{ if $.Param "cookieconsent" }}{{ partialCached "cookieconsent.html" . }}{{ end -}}
