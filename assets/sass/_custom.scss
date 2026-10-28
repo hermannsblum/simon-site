@@ -134,6 +134,11 @@
     grid-column: 3;
     justify-self: end;
     line-height: 0;
+
+    img {
+      height: 2.25rem;
+      width: auto;
+    }
   }
 
   @media (max-width: 600px) {
