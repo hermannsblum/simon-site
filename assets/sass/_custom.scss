@@ -121,6 +121,36 @@
 
 .footer {
   border-top: none;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: center;
+
+  > .footer-content {
+    grid-column: 2;
+    text-align: center;
+  }
+
+  > .footer-badge {
+    grid-column: 3;
+    justify-self: end;
+    line-height: 0;
+
+    img {
+      height: 1.5rem;
+      width: auto;
+    }
+  }
+
+  @media (max-width: 600px) {
+    grid-template-columns: 1fr;
+    justify-items: center;
+
+    > .footer-content,
+    > .footer-badge {
+      grid-column: 1;
+      justify-self: center;
+    }
+  }
 }
 
 @import 'colors';
